@@ -1,0 +1,28 @@
+{
+  "name": "TwitHub",
+  "version": "0.1.3",
+  "description": "Twitter - GitHub mashup",
+  "main": "./index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Patrick Quinn",
+  "license": "GPLv3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickjquinn/TwitHub"
+  },
+  "bugs": {
+    "url": "https://github.com/patrickjquinn/TwitHub/issues",
+    "email": "patquinnsoftware@gmail.com"
+  },
+  "dependencies": {
+    "co": "*",
+    "co-express": "*",
+    "co-request": "*",
+    "compression": "*",
+    "express": "*",
+    "thunkify-wrap": "*",
+    "twit": "^2.2.9"
+  }
+}
