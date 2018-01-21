@@ -22,9 +22,10 @@ Open your browser and enter http://localhost:1024/api/twithub/search/
 ### API Example
 
 ```javascript
-        const projectMentions = new ProjectMentions()
-        const tweets = yield projectMentions.get()
- 		console.log(JSON.stringify(tweets))
+    const projectMentions = new ProjectMentions()
+    const tweets = yield projectMentions.get()
+	
+	console.log(JSON.stringify(tweets))
 ```
 
 
