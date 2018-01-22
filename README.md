@@ -1,6 +1,11 @@
 # TwitHub - Twitter & GitHub Mashup
 
 
+# Project Description
+
+TwitHub is a mashup API which searches for all football projects on GitHub and finds all tweets (If any) which reference their GitHub repos! 
+
+
 # Dependencies
 
 - Node Latest https://nodejs.org/en/
